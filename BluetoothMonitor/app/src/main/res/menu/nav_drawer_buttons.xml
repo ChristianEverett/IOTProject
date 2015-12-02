@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_room_status"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/room_status"/>
+        <item
+            android:id="@+id/nav_room_log"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/room_log"/>
+        <item
+            android:id="@+id/nav_discover"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="@string/discover_devices"/>
+        <item
+            android:id="@+id/nav_polling"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="@string/start_scan"/>
+    </group>
+
+    <item android:title="Options">
+        <menu>
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Settings"/>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_menu_revert"
+                android:title="@string/logout"/>
+
+        </menu>
+    </item>
+
+</menu>

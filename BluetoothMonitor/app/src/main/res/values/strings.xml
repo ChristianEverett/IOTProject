@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Bluetooth Monitor</string>
+    
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="login_incorrect">Incorrect login credentials</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="remember_login_checkbox">Remember Login</string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="developer_email">ceverett@cs.uml.edu</string>
+
+    <!--Navigation drawer items-->
+    <string name="room_status">Current Room Status</string>
+    <string name="room_log">Room Log</string>
+    <string name="discover_devices">Discover Devices</string>
+    <string name="start_scan">Start Scanning</string>
+    <string name="stop_scan">Stop Scanning</string>
+    <string name="logout">Logout</string>
+
+</resources>
